@@ -1,4 +1,4 @@
-package br.com.db1.pedidos.pedidosapi.domain;
+package br.com.db1.pedidos.pedidosapi.domain.entity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

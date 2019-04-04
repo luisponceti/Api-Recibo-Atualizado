@@ -1,4 +1,4 @@
-package br.com.db1.pedidos.pedidosapi.repositorio;
+package br.com.db1.pedidos.pedidosapi.repository;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -8,8 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.com.db1.pedidos.pedidosapi.domain.Produto;
-import br.com.db1.pedidos.pedidosapi.domain.StatusTipoProduto;
+import br.com.db1.pedidos.pedidosapi.domain.entity.Produto;
+import br.com.db1.pedidos.pedidosapi.domain.entity.StatusTipoProduto;
+import br.com.db1.pedidos.pedidosapi.repository.ProdutoRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

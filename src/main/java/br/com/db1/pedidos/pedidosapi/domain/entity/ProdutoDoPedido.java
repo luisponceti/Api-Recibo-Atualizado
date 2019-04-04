@@ -1,4 +1,4 @@
-package br.com.db1.pedidos.pedidosapi.domain;
+package br.com.db1.pedidos.pedidosapi.domain.entity;
 
 import br.com.db1.pedidos.pedidosapi.infraestrutura.Validador;
 
